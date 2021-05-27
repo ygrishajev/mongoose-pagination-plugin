@@ -1,0 +1,7 @@
+node_modules
+coverage
+doc
+*npm-debug.log
+.nyc_output
+.idea
+.npmrc

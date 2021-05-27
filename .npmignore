@@ -1,0 +1,12 @@
+node_modules
+coverage
+*npm-debug.log
+.nyc_output
+.idea
+.eslintrc
+.gitignore
+.npmrc
+spec
+jest.config.json
+.git
+*.spec.js
