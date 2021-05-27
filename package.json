@@ -1,6 +1,6 @@
 {
   "name": "mongoose-pagination-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Implements basic cursor pagination for mongoose",
   "keywords": [],
   "repository": "https://github.com/ygrishajev/mongoose-pagination-plugin",
