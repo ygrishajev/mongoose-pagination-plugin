@@ -103,7 +103,7 @@ function toPaginator({
     const primary = isAfter ? '$lt' : '$gt'
     const secondary = isAfter ? '$gt' : '$lt'
     const { _id, [field]: value } = exp.decodeCursor(cursor, field)
-    let op = sort === `-${field}` && !last ? primary : secondary
+    let op = sort === `-${field}` ? primary : secondary
 
     if (inclusive) {
       op += 'e'
